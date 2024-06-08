@@ -136,9 +136,8 @@ uvicorn main:app --reload
 
 ### 访问模拟数据
 您可以通过向端点发送 GET 请求来访问模拟数据：
-
-http://127.0.0.1:8000/data/example1
-http://127.0.0.1:8000/data/example2
+- `http://127.0.0.1:8000/data/example1`
+- `http://127.0.0.1:8000/data/example2`
 
 这些请求将分别返回example1.json和的内容example2.json。
 
